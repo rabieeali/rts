@@ -10,7 +10,7 @@ export default function ProjectCard(props: ProjectCardProps) {
         return description.substring(0, 60) + '...';
     }
     const handleEditClick = (projectBeingEdited: Project) => {
-      console.log(projectBeingEdited)
+        onEdit(projectBeingEdited)
     };
 
     return (
